@@ -1,0 +1,34 @@
+{
+    "name": "Unreal Engine",
+
+    "version": "5.x",
+
+    "description": "A template for Unreal Engine projects, including a standard folder structure for assets, documentation, and source code.",
+    
+    "folders": [
+
+        "Art",
+        "Art/Concepts",
+        "Art/References",
+        "Art/Source",
+        "Art/Exports",
+
+        "Documentation",
+        "Documentation/Design",
+        "Documentation/Screenshots",
+        "Documentation/Meeting Notes",
+
+        "Source",
+
+        "Builds",
+
+        "Backup",
+
+        "Unreal",
+        "Unreal/Content",
+        "Unreal/Config",
+        "Unreal/Plugins",
+        "Unreal/Saved",
+        "Unreal/Intermediate"
+    ]
+}
