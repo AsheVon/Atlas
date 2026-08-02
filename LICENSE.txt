@@ -1,0 +1,13 @@
+
+Save the file.
+
+---
+
+#### 2. Commit and push the new README
+
+In the VS Code terminal run:
+
+```powershell
+git add README.md
+git commit -m "Replace root README with proper project documentation"
+git push

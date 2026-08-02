@@ -1,35 +1,36 @@
-# Cyberpunk
+# Atlas
+
+**Modular desktop pipeline toolkit for Technical Artists**  
+Developed by **Vector Labs** · Author: Ashe Von
+
+Atlas automates repetitive project setup tasks.  
+It generates professional folder structures, documentation, and production standards so Technical Artists and game developers can start working faster.
 
 ---
 
-## Created With
+## Current Status
 
-Atlas
+**Version 0.1.0** – Console Engine (Complete)
 
----
-
-## Engine
-
-Unreal Engine
-
----
-
-## Status
-
-Development
+- Launch from `main.py`
+- Ask for project name
+- Load Unreal Engine template (JSON)
+- Create standardized folder hierarchy
+- Generate README, CHANGELOG, TODO, LICENSE and VERSION files
+- Display professional completion summary
 
 ---
 
-## Folder Structure
+## Features (v0.1.0)
 
-Art
+- Data-driven templates (JSON)
+- Clean modular architecture
+- Ready for future GUI (PySide6)
+- Designed as a foundation for multiple production tools
 
-Documentation
+---
 
-Source
+## How to Run (v0.1.0)
 
-Builds
-
-Backup
-
-Unreal
+```bash
+python main.py
