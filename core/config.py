@@ -5,18 +5,13 @@ from pathlib import Path
 # =====================================================
 
 VERSION = "0.1.0"
-
 APPLICATION_NAME = "Atlas"
-
 COMPANY = "Vector Labs"
-
 AUTHOR = "Ashe Von"
 
-DEFAULT_TEMPLATE = "default"
+# Which template to use by default
+DEFAULT_TEMPLATE = "unreal"
 
-DEFAULT_PROJECT_LOCATION = (
-    Path.home()
-    / "Documents"
-    / "VectorLabs"
-    / "Projects"
-)
+# === WHERE NEW PROJECTS ARE CREATED ===
+# All projects will now go to E:\VectorLabs\Projects\
+DEFAULT_PROJECT_LOCATION = Path("E:/VectorLabs/Projects")

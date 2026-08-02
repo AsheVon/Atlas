@@ -1,0 +1,50 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# === OS generated ===
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# === Atlas / Project specific ===
+*.log
+*.tmp
+*.bak
+.cache/
+
+# === Future Unreal / Engine related (good to have early) ===
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.vcxproj*
+*.sln
+.vs/
+
+# === Packaging / Distribution ===
+*.exe
+*.msi
+*.zip
+dist/
+build/

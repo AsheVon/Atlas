@@ -1,23 +1,21 @@
 from pathlib import Path
+from core.logger import AtlasLogger
 
 
 class FolderBuilder:
+    """Creates the folder hierarchy defined in a template."""
 
-    def create(self, project_path, template):
+    def __init__(self):
+        self.logger = AtlasLogger()
 
-        folders = template["folders"]
+    def create(self, project_path: Path, template: dict):
+        folders = template.get("folders", [])
 
-        print("\nCreating Folder Structure\n")
+        self.logger.section("Creating Folder Structure")
 
         for folder in folders:
-
             current = project_path / Path(folder)
+            current.mkdir(parents=True, exist_ok=True)
+            self.logger.success(folder)
 
-            current.mkdir(
-                parents=True,
-                exist_ok=True
-            )
-
-            print(f"✓ {folder}")
-
-        print("\nFolder creation complete.")
+        self.logger.info("\nFolder creation complete.")
